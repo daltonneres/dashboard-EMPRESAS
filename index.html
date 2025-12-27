@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Empresarial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header class="top">
+  <h1>📊 Dashboard Empresarial</h1>
+  <p>Indicadores e gráficos para análise de resultados</p>
+</header>
+
+<section class="kpis">
+  <div class="kpi">
+    <h3>Faturamento</h3>
+    <strong>R$ 48.200</strong>
+  </div>
+
+  <div class="kpi">
+    <h3>Novos Clientes</h3>
+    <strong>32</strong>
+  </div>
+
+  <div class="kpi">
+    <h3>Taxa de Conversão</h3>
+    <strong>6.4%</strong>
+  </div>
+
+  <div class="kpi">
+    <h3>Pedidos</h3>
+    <strong>118</strong>
+  </div>
+</section>
+
+<section class="charts">
+  <div class="chart-box">
+    <h4>Faturamento Mensal</h4>
+    <canvas id="graficoFaturamento"></canvas>
+  </div>
+
+  <div class="chart-box">
+    <h4>Origem dos Clientes</h4>
+    <canvas id="graficoOrigem"></canvas>
+  </div>
+</section>
+
+<footer>
+  <a href="admin.html">🔐 Acessar Admin</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
